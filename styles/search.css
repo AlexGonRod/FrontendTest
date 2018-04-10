@@ -1,0 +1,39 @@
+.form {
+    margin: auto;
+    width: 90%;
+    height: 3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form > input {
+    width: 23em;
+    height: 3em;
+    padding: .5em;
+    font-size: 12px;
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.form > button{
+    width: 5.5em;
+    height:2.8em;
+    font-size: .8em;
+    border-radius: 3px;
+    background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(226,226,226,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(226,226,226,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(226,226,226,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-9 */   
+
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}

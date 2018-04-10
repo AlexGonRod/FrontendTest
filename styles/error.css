@@ -1,0 +1,13 @@
+.error {
+    margin: auto;
+    display: block;
+    width: 20em;
+    height: 3.5em;
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    background-color: #fadede;
+    color: #910f06;
+    border: 1px solid #910f06;
+    border-radius: 5px;
+}
